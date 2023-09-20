@@ -1,0 +1,435 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hey",
+                "How are you",
+                "Is anyone there?",
+                "Hello",
+                "Good day",
+                "Good Morning!"
+            ],
+            "responses": [
+                "Hello, thanks for logging into our Website",
+                "At at your Service",
+                "Hi there I am ChatBot, You can ask me any doubts you may have about our website"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "See you later",
+                "Goodbye"
+            ],
+            "responses": [
+                "See you later,.........",
+                "Good Luck!!",
+                "Honoured to be of service!!"
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "That's helpful"
+            ],
+            "responses": [
+                "Happy to help!",
+                "Any time!",
+                "My pleasure",
+                "Glad to be of service!!"
+            ]
+        },
+        {
+            "tag": "1.create_account",
+            "patterns":[
+                "How do I create an account on this website?",
+                "Create a new account",
+                "Can you guide me through new account creation ?"
+            ],
+            "responses": [
+                "To create an account, click on the 'Sign Up' or 'Register' button on the homepage. Fill in the required information, such as your name, email address, and choose a password. Once completed, click 'Submit' to create your account.",
+                "Creating an account on a website typically involves visiting the site, locating the 'Sign Up' or 'Register' button, filling out a registration form with your name, email address, username, and password, and possibly completing a verification step. It's important to choose a strong password and follow any specific requirements set by the website. Additionally, you may need to agree to the site's terms and conditions or privacy policy. Once you submit the registration form and verify your account (if required), you can log in using your new username and password to access the site's features and content. The exact steps may vary depending on the website in question, so be sure to follow the instructions provided on the site itself.",
+                "Many websites offer the option to create an account using your existing social media profiles, such as Facebook, Google, or Twitter. To use this method, you would typically follow these steps:\nVisit the website you want to join.\nLook for an option like 'Sign Up with Facebook' or Sign Up with Google.\nClick on this option and authorize the website to access your social media profile.\nReview and adjust the permissions if necessary.\nComplete any additional steps required by the website, such as selecting a username or confirming your email address.\nOnce you've completed these steps, you'll have an account on the website linked to your social media profile."
+            ]
+        },
+        {
+            "tag": "2.reset_password",
+            "patterns":[
+                "I forgot my password. How can I reset it?",
+                "Recover my password ?",
+                "How can i retrieve my password ?"
+            ],
+            "responses":[
+                "You can reset your password by clicking on the 'Forgot Password' link on the login page. Enter the email associated with your account, and we'll send you a link to reset your password.",
+                "To reset your password, you typically need to follow a few steps, depending on the specific platform or service you're trying to access. Start by visiting the login page of the website or application where you need to reset your password. Look for an option like 'Forgot Password' or 'Reset Password' and click on it. You may be prompted to enter your email address or username associated with your account. Once you provide this information, the platform will send you an email with instructions on how to reset your password. Follow the link or instructions in the email, which usually involves creating a new password. Make sure to choose a strong and secure password that combines letters, numbers, and symbols. After successfully resetting your password, you should be able to log in to your account with the new credentials. If you're unable to reset your password using these steps, consider reaching out to the platform's customer support for further assistance."
+            ]
+        },
+        {
+            "tag": "3.specific_topic",
+            "patterns":[
+                "How can I search for specific courses or topics?",
+                "I am looking for specific courses on a topic",
+                "How to access specific topics ?"
+            ],
+            "responses":[
+                "You can use the search bar located at the top of the page to type in keywords related to the course or topic you're interested in. The results will display relevant courses and materials.",
+                "To search for specific courses or topics on a website, you can typically use the website's built-in search functionality. Look for a search bar, often located at the top right or left corner of the webpage, and enter keywords related to the course or topic you're interested in. Hit the 'Enter' key or click the search icon, and the website will generate a list of relevant results. You can then browse through these results to find the specific courses or content that match your criteria. Additionally, some websites may have categories or filters that can help you narrow down your search further, making it easier to find exactly what you're looking for."
+            ]
+        },
+        {
+            "tag": "4.available_courses?",
+            "patterns": [
+                "What are the courses offered by this website ?",
+                "What are the currently available courses ?"
+            ],
+            "responses":[
+                "You can browse our course catalog to find a wide range of courses in [subject/topic]. Use the search filters or categories to narrow down your options and explore the available content.",
+                "I'd be happy to provide information about available courses in a specific subject or topic, but you'll need to specify the subject or topic you're interested in so that I can provide accurate details. Please let me know the subject or topic you'd like to learn more about, and I'll provide a concise paragraph listing some of the typical courses available in that area.",
+                "To find available courses in any subject or topic, you can start by exploring educational institutions and online learning platforms. Universities, colleges, and vocational schools often offer a wide range of courses across various subjects. You can visit their websites, browse their course catalogs, and learn about admission requirements. Additionally, numerous online learning platforms like Coursera, edX, Udemy, and Khan Academy provide a plethora of courses on diverse subjects, often allowing you to enroll at your convenience. To narrow down your choices, consider your specific interests, goals, and budget, as well as factors like the course format (in-person or online), duration, and level of difficulty. Reading reviews, seeking recommendations, and conducting research will help you make an informed decision on the best courses to pursue in your chosen subject or topic."
+            ]
+        },
+        {
+            "tag": "5.enroll_course",
+            "patterns":[
+                "How do I enroll in a course?",
+                "How do I enroll for a course ?",
+                "How to apply for a course ?"
+            ],
+            "responses":[
+                "To enroll in a course, go to the course page and click on the 'Enroll' or 'Join' button. If the course requires payment, you'll be prompted to complete the transaction.",
+                "Enrolling in a course typically involves several steps. First, you'll need to choose the course you want to take, whether it's at a traditional educational institution or an online platform. For traditional institutions, you may need to apply for admission and meet any prerequisites. Once accepted, you'll register for the course through the institution's registration system. For online courses, you'll usually create an account on the platform offering the course and then browse their catalog to find and select the course you want. After selecting the course, you'll typically need to pay the course fee if applicable. Once you've registered or paid, you'll gain access to course materials and resources. Be sure to check the specific requirements and deadlines for the course, as they can vary widely depending on the institution or platform. Lastly, stay engaged, attend classes or complete online modules as required, and reach out to instructors or support staff if you have questions or encounter any issues.",
+                "Enrolling in an online course is typically a straightforward process. First, you'll need to choose the online course you want to take from a reputable platform like Coursera, Udemy, edX, or others. Once you've selected the course, you'll create an account on the platform, providing your email and relevant information. In most cases, you can browse through the course materials and syllabus before enrolling to ensure it meets your needs. To enroll, you'll click on the 'Enroll' or 'Join' button, and if there's a fee associated with the course, you'll proceed to make the payment, often using a credit card or other accepted payment methods. After enrolling, you'll usually gain immediate access to course materials and can start learning at your own pace. It's important to check any specific course requirements, such as prerequisites or technology specifications, and to be aware of the course start and end dates if they are applicable. Online courses often provide flexibility, allowing you to learn on your schedule, but staying organized and engaged with the materials is key to a successful learning experience."
+            ]
+        },
+        {
+            "tag": "6.free_premium_content",
+            "patterns":[
+                "Is there a free trial period for premium content?",
+                "Do online course platforms offer free trials for their premium courses?",
+                "How can I access premium course materials for free during a trial period?",
+                "Can I access all the features and resources of a premium course during the trial period?"
+            ],
+            "responses":[
+                "Yes, we offer a free trial period for our premium content. During this period, you'll have full access to all premium features. After the trial, you can choose to subscribe to continue accessing premium content.",
+                "Yes, many online course platforms offer a free trial period for their premium courses. This trial period typically allows you to access premium content, features, and resources for a limited duration, often ranging from 7 to 30 days, without requiring immediate payment.",
+                "No, not all online course platforms provide free trial periods for premium content. It varies from platform to platform, so it's important to check the specific platform's policies regarding trials.",
+                "In some cases, the availability of a free trial for premium content might depend on the specific course or subscription plan you're interested in. Always check the details on the platform to see if the course you want offers a trial."
+            ]
+        },
+        {
+            "tag": "7.acess_enrolled_course",
+            "patterns":[
+                "How can I access my enrolled courses?",
+                "What steps do I need to follow to access the courses I've already enrolled in?",
+                "Is there a centralized dashboard or account page where I can access all my enrolled courses?",
+                "Is there an option to download course materials for offline access, or do I need an internet connection to access my courses?",
+                "Are there any specific deadlines or time restrictions for accessing my enrolled courses?"
+            ],
+            "responses":[
+                "You can access your enrolled courses by going to your profile and clicking on the 'My Courses' or 'Enrolled Courses' tab. This will display a list of all the courses you're currently enrolled in.",
+                "To access your enrolled courses, log in to your account on the respective online learning platform. Once logged in, you should see a dashboard or a list of your enrolled courses. Simply click on the course you want to access to start learning.",
+                "After enrolling, use your platform-specific username and password to log in. Once logged in, you can usually find your enrolled courses in the 'My Courses,' 'My Learning,' or a similar section of the platform.",
+                "Some platforms also offer the option to download course materials for offline access. Check the course details or settings to see if this feature is available.",
+                "If you've enrolled in multiple courses, managing them efficiently might involve creating a study schedule, setting goals, and utilizing platform-specific organizational tools.",
+                "To track your progress or view your grades, look for features like progress trackers, quizzes, assignments, or a gradebook within the course interface.",
+                "If you ever encounter technical issues or difficulties accessing your courses, reach out to the platform's customer support or help center for assistance."
+            ]
+        },
+        {
+            "tag": "8.track_progress",
+            "patterns":[
+                "How do I track my progress in a course?",
+                "What tools or features are available to help me monitor my progress in an online course?",
+                "Is there a way to see which lessons or modules I've completed within a course?",
+                "Can I track my quiz or assignment scores to gauge my performance in the course?",
+                "What should I do if I encounter difficulties or challenges in tracking my progress in the course?",
+                "Are there any tools or techniques for setting and achieving learning goals while tracking my progress?"
+            ],
+            "responses":[
+                "To track your progress, go to the course page and you'll find a progress bar that shows your completion status. You can also view individual lesson progress within the course.",
+                "To track your progress in a course, most online learning platforms provide a dashboard or progress page that displays your completed lessons or modules, quiz scores, and overall course completion percentage.",
+                "Look for features like 'My Progress,' 'Completion Status,' or 'Course Overview' on the course platform. These sections often offer a visual representation of your progress, such as a progress bar or checklist.",
+                "Monitoring quiz or assignment scores is an effective way to assess your performance. Many courses offer feedback on your submissions, helping you identify areas for improvement.",
+                "Setting personal learning goals can also help you track your progress. Regularly review your goals and adjust them as needed based on your progress.",
+                "If you're uncertain about your progress, don't hesitate to reach out to the course instructor or support team for clarification or guidance.",
+                "Remember that tracking progress is not just about completing lessons; it's also about comprehending and retaining the material. Regular self-assessment and review are key components of successful progress tracking."
+            ]
+        },
+        {
+            "tag": "9.offline_use",
+            "patterns":[
+                "Can I download course materials for offline use?",
+                "Is there an option to download course materials so I can access them offline?",
+                "Can I save lecture videos and course documents for offline viewing and study?",
+                "What formats are course materials typically available in for offline download, such as PDFs, videos, or slides?",
+                "Is there a limit to the number of course materials I can download for offline use?",
+                "Can I access downloaded materials on multiple devices, or are they restricted to the device I used for downloading?"               
+            ],
+            "responses":[
+                "Yes, you can download course materials for offline use. Look for the 'Download' option next to the specific material you want to save.",
+                "Yes, many online learning platforms offer the option to download course materials for offline use. This can include lecture videos, PDFs, slides, and other resources, making it convenient for learners without a constant internet connection.",
+                "Downloading course materials for offline use is a common feature on many platforms, but it's important to check the specific course and platform policies, as availability can vary.",
+                "Not all courses or platforms allow you to download materials for offline use. It depends on the course creator and platform's settings, so you should look for the download option within your specific course.",
+                "Downloaded materials are typically accessible only on the device where you downloaded them, but some platforms may offer syncing options across multiple devices.",
+                "If you encounter difficulties while trying to download course materials, consult the platform's help center or support team for guidance. They can often provide step-by-step instructions.",
+                "Remember that downloaded course materials are for personal use and may be subject to copyright restrictions. Always respect the terms and conditions of the platform and course when downloading."
+            ]
+        },
+        {
+            "tag": "10.submit_quiz",
+            "patterns":[
+                "How do I submit assignments or quizzes?",
+                "What are the steps to submit assignments or quizzes in an online course?",
+                "Is there a specific deadline for submitting assignments and quizzes, and how can I ensure I meet it?",
+                "Can I edit or resubmit my assignments and quiz responses after submission?",
+                "How can I check the status of my submitted assignments or quizzes and confirm they were received?"
+            ],
+            "responses":[
+                "To submit assignments or quizzes, navigate to the respective lesson within the course and follow the instructions provided. You'll find a submission button or form to complete the task.",
+                "To submit assignments or quizzes in an online course, log in to the course platform and navigate to the specific assignment or quiz section. Follow the provided instructions to upload your assignment file or complete the quiz questions.",
+                "Assignment and quiz submission typically have deadlines specified by the course instructor. Make sure to check the due date for each assignment or quiz to ensure timely submission.",
+                "Most online courses allow you to edit or resubmit assignments and quiz responses before the deadline. However, it's advisable to check the course policies, as some may restrict editing after submission.",
+                "When naming assignment files, it's essential to use a naming convention specified by the instructor or course guidelines, which may include your name, assignment title, or a specific format.",
+                "After submitting assignments or quizzes, you can typically view their status in the course interface. Look for a 'Submitted' or 'Completed' indicator to confirm your submission."
+            ]
+        },
+        {
+            "tag": "11.technical_difficulties",
+            "patterns":[
+                "What do I do if I'm experiencing technical difficulties?",
+                "What steps should I take if I encounter technical issues while accessing my online course?",
+                "Is there a designated support team or help center I can reach out to for assistance with technical problems?",
+                "Are there common troubleshooting tips for resolving technical difficulties, such as video playback issues or login problems?",
+                "How can I determine if the technical difficulty is on my end or if it's a platform-wide problem?",
+                "Is there a specific contact method or email address to report technical problems to the course instructor or platform administrators?"
+            ],
+            "responses":[
+                "If you're experiencing technical issues, first try refreshing the page or clearing your browser cache. If the problem persists, please contact our support team at [support email/phone number] with a description of the issue, and we'll be happy to assist you.",
+                "If you're experiencing technical issues during your online course, the first step is to remain calm and patient. Technical problems can often be resolved with the right steps.",
+                "Check for any error messages or specific details about the issue you're encountering. This information can be helpful when seeking assistance.",
+                "Many online course platforms have a dedicated support team or help center. Contact them via email or a support ticket system, providing a clear description of the problem you're facing.",
+                "Before reaching out for support, it's a good idea to consult the platform's troubleshooting guide or frequently asked questions (FAQ) section. They often contain solutions to common technical problems.",
+                "To determine if the issue is on your end or platform-wide, you can visit the platform's official social media accounts or status page, where they may post updates about any ongoing outages or technical issues."
+            ]
+        },
+        {
+            "tag": "12.mobile_app_available",
+            "patterns":[
+                "Is there a mobile app available for this website?",
+                "Is there a mobile app available for this website or platform?",
+                "Can I access this website's features and content through a dedicated mobile app?",
+                "Where can I download the mobile app for this website?",
+                "What are the benefits of using the mobile app compared to accessing the website through a browser?",
+                "Is the mobile app regularly updated with new features and improvements?",
+                "Is the mobile app free to download, or are there any associated costs?"
+            ],
+            "responses":[
+                "Yes, we have a mobile app available for both Android and iOS devices. You can download it from the App Store or Google Play Store and log in with your account credentials to access our content on the go.",
+                "Yes, there is a mobile app available for this website, which can be downloaded from the App Store (for iOS devices) or the Google Play Store (for Android devices).",
+                "Indeed, you can access the features and content of this website through its dedicated mobile app, enhancing your user experience on mobile devices.",
+                "To download the mobile app for this website, visit the App Store or Google Play Store and search for '[Website Name]' to find and install the app.",
+                "Using the mobile app for this website provides several advantages, including a more streamlined user interface, push notifications, and offline access to certain content.",
+                "The mobile app for this website is typically free to download, but be sure to check for any in-app purchases or subscription options for premium features."
+            ]
+        },
+        {
+            "tag": "13.customer_support",
+            "patterns":[
+                "How can I contact customer support for further assistance?",
+                "What is the best way to reach customer support for further assistance?",
+                "Is there a customer support hotline or phone number I can call for help?",
+                "Can I contact customer support through email, and if so, what is the email address to use?",
+                "Is there a live chat feature available for real-time assistance with customer support?",
+                "What information should I have ready when contacting customer support to expedite the assistance process?"
+            ],
+            "responses":[
+                "You can reach our customer support team via email at [support email] or by calling [support phone number]. Our dedicated team is here to help with any questions or concerns you may have.",
+                "To contact customer support for further assistance, you can typically find their contact information on the official website of the company or service. Look for a 'Contact Us' or 'Support' section.",
+                "Many companies offer a customer support hotline or phone number that you can call for immediate assistance. This number is often prominently displayed on their website.",
+                "If you prefer email communication, check the website for the customer support email address. You can send your inquiry or issue to this email address for a written response.",
+                "Be mindful of the operating hours of customer support, as they may vary. Some companies offer 24/7 support, while others have specific business hours.",
+                "Some companies provide a live chat feature on their website, allowing you to chat with a customer support representative in real-time. Look for a chat icon or 'Live Chat' option."
+            ]
+        },
+        {
+            "tag": "14.live_session",
+            "patterns":[
+                "Are there any live or interactive sessions available?",
+                "Do you offer any live or interactive sessions as part of your course or service?",
+                "Are there scheduled live sessions where I can interact with instructors or experts?",
+                "Can I attend live webinars or workshops to supplement my learning?",
+                "What types of interactive activities or sessions are available for learners?",
+                "Are there opportunities for Q&A sessions during live events?"
+            ],
+            "responses":[
+                "Yes, we offer live sessions for select courses. These sessions provide an opportunity to interact with instructors and fellow learners in real-time. Check the course details for information on upcoming live sessions.",
+                "Yes, our course/service offers live and interactive sessions that allow you to engage with instructors, experts, and peers in real-time.",
+                "You can participate in scheduled live sessions, such as webinars, workshops, or live Q&A sessions, to enhance your learning experience.",
+                "We provide opportunities for learners to join interactive discussions, collaborate on projects, and attend live events to foster engagement and interaction.",
+                "To access live sessions, you may need to register or sign up in advance through our platform, ensuring you receive invitations and reminders for upcoming events."
+            ]
+        },
+        {
+            "tag": "15.system_requirements",
+            "patterns":[
+                "What are the system requirements for using this website?",
+                "Is there a specific web browser I should use to ensure compatibility with this website?",
+                "Do I need to install any plugins or extensions to optimize my experience on this website?",
+                "Are there any recommended device specifications, such as minimum RAM or processor requirements, for smooth browsing?",
+                "Do I need a high-speed internet connection to use this website effectively?",
+                "Are there any recommended device specifications, such as minimum RAM or processor requirements, for smooth browsing?"
+            ],
+            "responses":[
+                "To ensure optimal performance, we recommend using the latest version of a modern web browser (such as Chrome, Firefox, Safari, or Edge) and a stable internet connection. Some interactive features may require specific plugins or extensions.",
+                "To use this website, you'll need a modern web browser like Google Chrome, Mozilla Firefox, Safari, or Microsoft Edge. It's important to keep your browser updated for the best experience.",
+                "For optimal performance, we recommend using the latest version of your preferred web browser. This ensures compatibility with our website's features and functionality.",
+                "Our website is designed to be browser-based, so you won't need to install any additional plugins or extensions. Just make sure your browser is up to date.",
+                "While our website is designed to be accessible on a wide range of devices, a device with at least 4GB of RAM and a modern processor will provide the smoothest browsing experience.",
+                "We also offer a mobile-responsive version of our website for smartphones and tablets. To use it, make sure your mobile device has a compatible web browser and internet connection."
+            ]
+        },
+        {
+            "tag": "16.delete_account",
+            "patterns":[
+                "How can I cancel my subscription or delete my account?",
+                "Is there a specific process I should follow to terminate my subscription?",
+                "What are the steps to unsubscribe or cancel my membership on this platform?",
+                "Can I easily delete my account on this website, and if so, how?",
+                "Is there a way to stop recurring payments for my subscription?",
+                "Is there a customer support contact I can reach out to for assistance with canceling my subscription or deleting my account?"
+            ],
+            "responses":[
+                "To cancel your subscription, go to your account settings and navigate to the 'Billing' or 'Subscription' section. Follow the prompts to cancel. If you wish to delete your account, please contact our support team for further assistance.",
+                "To cancel your subscription, log in to your account, navigate to the 'Account Settings' or 'Billing' section, and look for the option to 'Cancel Subscription' or 'Unsubscribe.'",
+                "You can typically terminate your subscription by going to your account dashboard and following the prompts under the 'Subscription' or 'Membership' tab.",
+                "If you want to delete your account entirely, check the 'Account Settings' or 'Profile' section for an option to 'Delete Account' or 'Close Account.'",
+                "To stop recurring payments for your subscription, make sure to cancel it before the next billing cycle. Most platforms allow you to do this from your account settings.",
+                "Be aware of any cancellation fees or penalties that may apply to your subscription. Check the platform's terms and conditions for details.",
+                "Some platforms may require a notice period before canceling a subscription, so plan accordingly if you have a specific cancellation date in mind."
+            ]
+        },
+        {
+            "tag": "17.community_forum",
+            "patterns":[
+                "Is there a community forum or discussion board for students?",
+                "Is there a community forum or discussion board where students can interact and engage with each other?",
+                "Do you offer a platform for students to connect, discuss course topics, and collaborate with peers?",
+                "Is there a dedicated online community where students can ask questions and share their experiences?",
+                "Where can I find the student discussion forum, and how do I access it?",
+                "Can students use the forum to seek help or clarification on course content or assignments?",
+                "Are there specific rules or guidelines for participating in the student community forum?"
+            ],
+            "responses":[
+                "Yes, we have a dedicated community forum where students can engage in discussions, ask questions, and share insights related to courses and educational topics. You can access it from the main menu.",
+                "Our platform offers a student discussion board, providing a space for interaction, collaboration, and knowledge sharing among students.",
+                "To access the student community forum, navigate to the 'Community' or 'Discussion Board' section on our platform, typically found in your course dashboard.",
+                "Participation in the student forum is encouraged, and you can find it under the 'Student Community' or 'Peer Discussions' tab within your course.",
+                "We maintain specific guidelines and rules for the student community forum to ensure a respectful and productive environment. These guidelines are usually outlined in the forum's introduction or welcome message.",
+                "Our forum is moderated by administrators or community managers who oversee discussions, enforce guidelines, and ensure a positive and respectful atmosphere.",
+                "The forum is a valuable resource for seeking help or clarification on course-related queries. Many students and sometimes instructors actively participate to assist with questions.",
+                "To stay updated on new posts or discussions in the student community, you can often set up email notifications or explore the forum's notification settings within your account.",
+                "Aside from the forum, we provide additional resources and support channels, such as email support, live chat, or dedicated help sections, to assist students with their needs."
+            ]
+        },
+        {
+            "tag": "18.report_issue",
+            "patterns":[
+                "How can I give feedback on a course or report an issue?",
+                "Is there a dedicated feedback system or form for course-related concerns?",
+                "How can I share my thoughts and suggestions about a course with the course instructor or administrators?",
+                "Do you have a mechanism for reporting technical issues or glitches within the course materials?",
+                "Where can I find the 'Feedback' or 'Report an Issue' option within the course platform?",
+                "Are there any guidelines or expectations for providing constructive feedback on course content or instructors?"
+            ],
+            "responses":[
+                "You can provide feedback on a course by going to the course page and clicking on the 'Feedback' or 'Report an Issue' button. Your input helps us improve the quality of our content and user experience.",
+                "We value your feedback. You can use the dedicated feedback form on our platform, usually located in the course menu or under the 'Help' section.",
+                "We encourage students to share their thoughts and suggestions with us. You can reach out to us via email or a contact form provided on our website.",
+                "If you encounter technical issues or glitches in the course materials, please report them using the 'Report an Issue' feature, which helps us address and resolve such problems.",
+                "The 'Feedback' option is often accessible from the course dashboard or within specific lessons or modules. You can submit feedback on course content, instructors, or any other concerns."
+            ]
+        },
+        {
+            "tag": "19.subscription_expire",
+            "patterns":[
+                "Can I access course content after the subscription expires?",
+                "What happens to my access to course materials when my subscription ends?",
+                "Can I still view and review course content after my subscription has lapsed?",
+                "Is there a grace period or temporary access to course materials after the subscription expires?",
+                "Are there any restrictions on accessing course content after the subscription period?",
+                "Do I lose access to quizzes, assignments, and discussions when my subscription ends?"
+            ],
+            "responses":[
+                "No, access to premium content is tied to an active subscription. Once your subscription expires, you will no longer have access to premium courses. However, you will still be able to access any free content available on the platform.",
+                "In many cases, access to course content is tied to an active subscription. Once your subscription expires, you may no longer have access to the course materials.",
+                "Access to course content is typically limited to the duration of your subscription. After it expires, you may lose access to lessons, quizzes, and other materials.",
+                "Some platforms offer a grace period after the subscription expires, allowing you to access course content for a limited time. Check the platform's policies for details.",
+                "If your subscription has lapsed, you may no longer be able to view or review course content, including videos, lectures, and assignments.",
+                "Access to quizzes, assignments, and discussions may be restricted once your subscription ends, as these interactive elements are often tied to an active subscription.",
+                "To continue learning from the same course after your subscription expires, you may need to renew your subscription or explore options for purchasing the course separately."
+            ]
+        },
+        {
+            "tag": "20.completion_certificate",
+            "patterns":[
+                "Are there any certifications or assessments available after completing a course?",
+                "Is there a certification awarded upon successful completion of the course?",
+                "Do you offer assessments or exams to evaluate students' understanding of course material?",
+                "What types of certifications or credentials can I earn by taking this course?",
+                "Is there a final exam or assessment that I need to pass to receive a certificate?",
+                "Are the certifications recognized by industry professionals or employers?",
+                "Is there an additional fee for obtaining the course certificate, or is it included in the course fee?"
+            ],
+            "responses":[
+                "Yes, many of our courses offer certifications or assessments upon completion. Details about certifications and assessments can be found on the course page under the 'Certification' or 'Assessment' section.",
+                "Upon successful completion of the course, you will receive a course certificate that verifies your achievement.",
+                "We offer assessments and quizzes throughout the course to evaluate your understanding of the material and track your progress.",
+                "Our course certificates are widely recognized and respected by industry professionals and employers, adding value to your credentials.",
+                "To receive a certificate, you typically need to pass a final exam or assessment that assesses your comprehension of the course content.",
+                "To qualify for a course certificate, you must meet specific requirements, which may include completing all lessons, assignments, and achieving a minimum passing score on assessments."
+            ]
+        },
+        {
+            "tag": "21.language_specific",
+            "patterns":[
+                "Is the website language specific?",
+                "Can I change the website's language to one I'm more comfortable with?",
+                "Is there language support for non-English-speaking users?",
+                "What languages are supported on the website?",
+                "Do you offer language preferences for user accounts, allowing users to choose their preferred language?"
+            ],
+            "responses":[
+                "Yes, the website primarily operates in a specific language, which is [mention the specific language].",
+                "Our website is available in multiple languages, allowing users to select their preferred language for navigation.",
+                "Language support for non-English-speaking users is available, with options to access content in various languages.",
+                "The website currently supports [list supported languages] in addition to the default language.",
+                "Users can choose their preferred language for the website through the language settings or language switcher."
+            ]
+        },
+        {
+            "tag": "22.find_loan",
+            "patterns":[
+                "How to find a loan?",
+                "What are the steps to find a suitable loan for my needs?",
+                "How can I search for loans that match my financial requirements?",
+                "Where can I start looking for loan options?",
+                "What factors should I consider when seeking a loan, such as interest rates and repayment terms?",
+                "Are there specific websites or platforms for comparing different loan offers?",
+                "What are the eligibility criteria for different types of loans?"
+            ],
+            "responses":[
+                "To find a suitable loan for your needs, start by evaluating your financial goals and determining the amount you need to borrow.",
+                "Begin your search for loans by exploring various financial institutions such as banks, credit unions, and online lenders.",
+                "Use online loan comparison websites and tools to compare different loan offers from multiple lenders. These platforms can help you find loans that match your criteria.",
+                "Consider factors like interest rates, loan terms, fees, and repayment options when evaluating loan offers.",
+                "Explore different types of loans, including personal loans, mortgages, auto loans, and student loans, to determine which one suits your specific financial needs.",
+                "Seek advice from a financial advisor or loan specialist to help you navigate the loan search process and make informed decisions.",
+                "Pay attention to eligibility criteria set by lenders, as they may have specific requirements based on your credit score, income, and financial history."
+            ]
+        }
+    ]
+}
